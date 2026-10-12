@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umeed Foundation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>💚 Umeed Foundation</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#causes">Causes</a>
+        <a href="#work">Our Work</a>
+        <a href="#donate">Donate</a>
+        <a href="#volunteer">Volunteer</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Small Acts. Big Changes.</h1>
+    <p>Together, we can bring hope to every life.</p>
+    <a href="#donate" class="btn">Support Our Mission</a>
+</section>
+
+<section id="about">
+    <h2>Who We Are</h2>
+    <p>Umeed Foundation works towards a better society through
+    education, food support, healthcare and environmental care.</p>
+
+    <div class="stats">
+        <div><h3>500+</h3>People Helped</div>
+        <div><h3>50+</h3>Volunteers</div>
+        <div><h3>20+</h3>Campaigns</div>
+    </div>
+</section>
+
+<section id="causes">
+    <h2>Our Causes</h2>
+    <div class="cards">
+        <div class="card"><span>📚</span><h3>Education</h3>
+            <p>Books and learning support for children.</p></div>
+        <div class="card"><span>🍲</span><h3>Food Support</h3>
+            <p>Meals for people who need them.</p></div>
+        <div class="card"><span>🌱</span><h3>Environment</h3>
+            <p>Tree plantation and clean surroundings.</p></div>
+        <div class="card"><span>🏥</span><h3>Healthcare</h3>
+            <p>Health awareness and community support.</p></div>
+    </div>
+</section>
+
+<section id="work">
+    <h2>Our Previous Work</h2>
+    <p class="intro">A glimpse of the change we aim to create.</p>
+
+    <div class="gallery">
+        <div class="work-card">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80" alt="Children learning">
+            <h3>Education Drive</h3>
+            <p>Supporting children through learning and books.</p>
+        </div>
+
+        <div class="work-card">
+            <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=600&q=80" alt="Community food support">
+            <h3>Food Distribution</h3>
+            <p>Promoting kindness by supporting families in need.</p>
+        </div>
+
+        <div class="work-card">
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=600&q=80" alt="Plants and gardening">
+            <h3>Green Earth Campaign</h3>
+            <p>Encouraging greener and cleaner communities.</p>
+        </div>
+    </div>
+    <p class="note">Note: These are illustrative examples. Replace them with your foundation's actual activities and photos.</p>
+</section>
+
+<section id="donate">
+    <h2>Be Someone's Hope</h2>
+    <p>Choose an amount to support our mission.</p>
+    <button onclick="donate(100)">₹100</button>
+    <button onclick="donate(500)">₹500</button>
+    <button onclick="donate(1000)">₹1000</button>
+    <p id="donationMessage"></p>
+    <p class="note">Demo only — no real payment is collected.</p>
+</section>
+
+<section id="volunteer">
+    <h2>Join Our Team</h2>
+    <p>Your time can make a difference!</p>
+
+    <form id="volunteerForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Become a Volunteer</button>
+    </form>
+    <p id="thanks"></p>
+</section>
+
+<footer>
+    <h3>Umeed Foundation 💚</h3>
+    <p>One community. One mission. A better tomorrow.</p>
+    <p>© 2026 Umeed Foundation</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
